@@ -1,0 +1,6 @@
+// Question: Write a blog on Difference between HTTP1.1 vs HTTP2
+
+/* Answer
+  HTTP/1.1 loads resources one after the other, so if one resource cannot be loaded, it blocks all the other resources behind it. 
+  In contrast, HTTP/2 is able to use a single TCP connection to send multiple streams of data at once so that no one resource blocks any other resource.
+*/
