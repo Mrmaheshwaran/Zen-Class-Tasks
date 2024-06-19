@@ -70,7 +70,7 @@ const palindromes = getPalindromes(Mahesh4);
 
 console.log(palindromes);
 
-//   6. Return median of two sorted arrays of the same size
+//     6. Return median of two sorted arrays of the same size
 
 function findMedianSortedArrays(nums1, nums2) {
     const mergedArray = mergeSortedArrays(nums1, nums2);
